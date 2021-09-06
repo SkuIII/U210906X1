@@ -20,6 +20,13 @@ namespace Exercise1
             wordCount++;
 
             Console.WriteLine($"Antalet ord i meningen är: {wordCount}");
+
+            string[] splitString = sentence.Split(' ');
+
+            foreach (string word in splitString)
+            {
+                Console.WriteLine($"{word} ({word.Length})");
+            }
         }
     }
 }
