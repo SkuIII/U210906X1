@@ -19,7 +19,7 @@ namespace Exercise1
             }
             wordCount++;
 
-            Console.WriteLine("Antalet ord i meningen är: " + wordCount);
+            Console.WriteLine($"Antalet ord i meningen är: {wordCount}");
         }
     }
 }
