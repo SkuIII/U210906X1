@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Exercise1
+namespace Exercise6
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Skriv en mening:");
+            Console.WriteLine("Hello World!");
         }
     }
 }
