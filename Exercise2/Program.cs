@@ -6,7 +6,15 @@ namespace Exercise2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Skriv en mening:");
+            string sentence = Console.ReadLine();
+
+            string[] splitString = sentence.Split(' ');
+
+            foreach (string word in splitString)
+            {
+                Console.WriteLine(word);
+            }
         }
     }
 }
