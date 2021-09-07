@@ -11,6 +11,8 @@ namespace Exercise2
 
             string[] splitString = sentence.Split(' ');
 
+            Array.Sort(splitString, (word, word2) => word.Length.CompareTo(word2.Length));
+
             foreach (string word in splitString)
             {
                 Console.WriteLine(word);
