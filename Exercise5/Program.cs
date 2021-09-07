@@ -10,6 +10,9 @@ namespace Exercise5
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Välkommen! Här kan du bygga en mening med ett ord i taget, skriv avsluta för att avsluta!");
+            string sentence = "";
+
             while (true)
             {
                 Console.WriteLine("Mata in ett ord:");
@@ -19,7 +22,11 @@ namespace Exercise5
                 {
                     break;
                 }
+
+                sentence += $"{input} ";
             }
+
+            Console.WriteLine($"Din mening just nu är: {sentence}");
         }
     }
 }
